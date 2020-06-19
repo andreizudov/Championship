@@ -1,0 +1,31 @@
+body{
+	background-color: rgb(162, 241, 146);
+}
+table {
+
+	width: 50%;
+	border: 1px solid black;
+	background: rgb(160, 160, 164);
+	border-collapse: collapse;
+	ma
+}
+
+td {
+	border: 1pt solid black;
+	
+}
+
+.test {
+    text-align: right;
+	margin: 2% 50% 1px 40%;}
+	
+.test2 {
+    width: 30%;
+    margin-left: 40%;
+    margin-right: auto;
+    background: rgb(119, 234, 30)}
+
+.tiblevl {
+	padding-right: 10%;
+	padding-left: 10%;
+}
