@@ -1,31 +1,42 @@
 body{
 	background-color: rgb(162, 241, 146);
+	position: relative;
 }
 table {
 
-	width: 50%;
+
+	width: 99%;
 	border: 1px solid black;
 	background: rgb(160, 160, 164);
 	border-collapse: collapse;
-	ma
+
 }
 
 td {
 	border: 1pt solid black;
-	
 }
 
-.test {
-    text-align: right;
-	margin: 2% 50% 1px 40%;}
-	
-.test2 {
-    width: 30%;
-    margin-left: 40%;
-    margin-right: auto;
-    background: rgb(119, 234, 30)}
+
 
 .tiblevl {
-	padding-right: 10%;
-	padding-left: 10%;
+	margin-left: 20%;
+	margin-right: 30%;
+}
+
+.leftmenu{
+	position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 5%;
+    left: 0;
+    background: rgb(59, 192, 54)
+}
+.rightmenu{
+	top:5% ;
+	position: absolute;
+	width: 30%;
+	right:0%;
+	height: 100%;
+	left: 70%;
+	background:  rgb(59, 192, 54)
 }
