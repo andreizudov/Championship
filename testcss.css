@@ -40,3 +40,13 @@ td {
 	left: 70%;
 	background:  rgb(59, 192, 54)
 }
+.leftmenutable{
+	margin:10px;
+	padding: 5pt;
+	border: 8px solid chocolate;
+}
+
+img {
+	padding: 10%;
+	width: 80%;
+}
