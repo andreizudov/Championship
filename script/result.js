@@ -6,12 +6,14 @@ function result()
         }
         
         
-let pl1 = new Worker("Andrei","Zudov",7800,20)
+//let pl1 = new Worker("Andrei","Zudov",7800,20)
+let sen = new MyString("this my sentence mather fack")
+console.log(sen.ucFirst())
 
 
-console.log(pl1.getSalary ())
+//console.log(pl1.getSalary ())
 
 
-console.log(pl1.getName())
-console.log(pl1.getSurname())
-console.log(pl1.setRate())
+//console.log(pl1.getName())
+//console.log(pl1.getSurname())
+//console.log(pl1.setRate())

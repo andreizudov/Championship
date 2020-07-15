@@ -27,9 +27,34 @@ class Worker {
         var x=3
         return this._rate*x
     }
+}
 
+class MyString {
+    constructor(www){
+        this.www = www
+    }
+    reverse(){
+        var t =this.www.split (' ');
+        for (let i=0;i<t.length/2;i++){
+            var time = t[i]
+            t[i] =t[t.length-i-1]
+            t[t.length-i-1] = time
+            console.log(t)
+        }
+        t= t.join(' ')
+        return t
+        //for (let i=0;i=this.www.length;i++)
+    
+    }
+    ucFirst(){
+       var t =this.www.split ('')
+       t[0] = t[0].toUpperCase()
+       t = t.join('')
+        return t
 
+    }
+    ucWords(){  
 
-
+    }
 }
 
