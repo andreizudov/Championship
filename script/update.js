@@ -5,7 +5,6 @@
 function update1()
 
 { 
-    
     var team1 = document.getElementById("team1"),team2 = document.getElementById("team2"), goalTeam1 = document.getElementById("goalTeam1"), goalTeam2 = document.getElementById("goalTeam2")
     team1 = team1.value
     team2 = team2.value
@@ -75,6 +74,7 @@ function update1()
     elem.innerHTML = "Таблица первенства Дерби на Якоби"
     update()
     createTable(elem, colu.length, teams.length)}
+   
 
 
 
